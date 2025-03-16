@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi currículum">
+    <meta name="keywords" content="Currículum, Salcedo, Miguel, Salcedo Uribe Miguel">
+    <meta name="author" content="Ing. Salcedo Uribe Miguel">
+    <meta img src="./Iconos/0KZphnz - Imgur.png" alt="Foto de perfil" width="200" height="200">
+    <title>Mi Currículum</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#Main {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e3f2fd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+ul li:hover {
+    background: #bbdefb;
+    transform: scale(1.05);
+}
+
+.imagen {
+    display: block;
+    margin: 20px auto;
+    border-radius: 80%;
+    border: 4px solid #0056b3;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0056b3;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.iconos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px; 
+}
+
+.iconos li {
+    display: flex;
+    align-items: center;
+}
+
+.iconos a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.iconos img {
+    margin-right: 8px;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .iconos {
+        justify-content: center; 
+    }
+
+    .iconos li {
+        margin: 5px 0; 
+    }
+}
+
+#Footer p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#Footer p:first-of-type {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body> 
+    <div>
+        <header>
+            <h1>Mi Currículum</h1>
+        </header>
+    </div>
+    <div id="Main">
+        <div id="Datos">
+            <div id="Datos Personales"></div>    
+                <h2>Datos Personales</h2>
+                    <ul>
+                        <li>Nombre: Ing. Salcedo Uribe Miguel</li>
+                        <li>Edad: 15 años</li>
+                        <li>Fecha de nacimiento: 27 de junio de 2009</li>
+                        <li>Sexo: Masculino</li>
+                        <li>Estado civil: Soltero</li>
+                        <li>Correo electrónico: salcedoumiguel@gmail.com</li>
+                        <li>Teléfono: 777 448 5257</li>
+                        <li>Dirección: Calle 8 del Virrey, Col. Real de tetela, Cuernavaca, Morelos</li>
+                    </ul>
+                    <img class="imagen" src="./Iconos/0KZphnz - Imgur.png" alt="Foto de perfil" width="200" height="200">
+            </div>
+            <div id="Formacion Academica">
+                <h2>Formación Académica</h2>
+                <ul>
+                    <li>Primaria: Escuela Global Learning Comunity 2015-2021</li>
+                    <li>Secundaria: Acompaname Homeschool 2021-2024</li>
+                    <li>Preparatoria: Hellen Keller 2024-2027</li>
+                    <li>Universidad: Tec de Monterrey 2027-2032</li>
+                </ul>
+            </div>
+            <div id="idiomas">
+                <h2>Idiomas</h2>
+                <ul>
+                    <li>Castellano: Lengua materna</li>
+                    <li>Inglés: Certificación de nivel C1</li>
+                    <li>Francés: Básico</li>
+                </ul>
+            </div>
+            <div id="Experiencia Laboral">
+                <h2>Experiencia Laboral</h2>
+                <ul>
+                    <li>Trabajar en la tlapalería de mi bisabuelo</li>
+                    <li>Desarrollo de bots de Discord</li>
+                    <li>Pentesting</li>
+                    <li>Desarrollo de software</li>
+                </ul>
+            </div>
+            <div id="Cursos de acervo cultural">
+                <h2>Cursos de Acervo Cultural</h2>
+                <ul>
+                    <li>BJYU'S Future School 2021-2023</li>
+                    <li>Einventiva Academy 2025-2026</li>    
+                </ul>
+            </div>
+            <div id="Habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Frameworks</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                    <li>Bash</li>
+                    <li>UI/UX</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+            <div id="Premios y reconocimientos">
+                <h2>Premios y Reconocimientos</h2>
+                <ul>
+                    <li>Segundo lugar en la Olimpiada de Matemáticas 2023</li>
+                    <li>Finalista del Concurso Internacional de Ciencias 2025</li>
+                    <li>Certificación CFE Cambridge 2025</li>
+                    <li>CEH (Certified Ethical Hacker) 2027</li>
+                </ul>
+            </div>
+            <div id="Redes Sociales">
+                <h2>Redes Sociales</h2>
+                <ul class="iconos">
+                    <li><a href="https://github.com/Juancio075"><img src="./Iconos/icons8-github-24.png" width="30" height="30" target="_blank">Github</a></li>
+                    <li><a href="https://x.com/home?lang=es"><img src="./Iconos/icons8-twitter-32.png" width="30" height="30" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com"><img src="./Iconos/icons8-instagram-50.png" width="30" height="30" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.youtube.com"><img src="./Iconos/icons8-youtube-50.png" width="30" height="30" target="_blank">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="Footer">
+        <footer>
+            <p>Ing. Salcedo Uribe Miguel</p>
+            <p>© 2025 www.MiCurriculum.com - All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
